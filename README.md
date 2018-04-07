@@ -9,10 +9,8 @@ Cenotos6.5 64位 LAMP 自动配置脚本 @phpbin
 将脚本上传到服务器，并设置可执行权限；在服务器根目录新建 /mydata 目录 # yum -y update 对服务器版本进行更新  
 本教程将脚本上传到 /root 目录进行演示。 
   
-` ``c
-$ yum -y update
-$ chmod -R 777 ** 
-` `` 
+`$ yum -y update`
+`$ chmod -R 777 **`
  
 ![图片001](http://www.phpbin.cn/wp-content/uploads/2018/04/001.jpg "图片001")  
   
