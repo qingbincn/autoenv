@@ -1,9 +1,9 @@
-CentosÏÂYum°²×°PHP5.5,5.6,7.0
-×Ô¶¯ÅäÖÃ£ºHttpd(Apache)£¬Mysql£¬PHPMyAdmin, SVN, GIT, Vsftpd, Samba, SSL
-Ä¬ÈÏµÄ°æ±¾Ì«µÍÁË£¬ÊÖ¶¯°²×°ÓĞÒ»Ğ©Âé·³£¬Ïë²ÉÓÃYum°²×°µÄ¿ÉÒÔÊ¹ÓÃÏÂÃæµÄ·½°¸£º
-1.¼ì²éµ±Ç°°²×°µÄPHP°ü
+Centosä¸‹Yumå®‰è£…PHP5.5,5.6,7.0
+è‡ªåŠ¨é…ç½®ï¼šHttpd(Apache)ï¼ŒMysqlï¼ŒPHPMyAdmin, SVN, GIT, Vsftpd, Samba, SSL
+é»˜è®¤çš„ç‰ˆæœ¬å¤ªä½äº†ï¼Œæ‰‹åŠ¨å®‰è£…æœ‰ä¸€äº›éº»çƒ¦ï¼Œæƒ³é‡‡ç”¨Yumå®‰è£…çš„å¯ä»¥ä½¿ç”¨ä¸‹é¢çš„æ–¹æ¡ˆï¼š
+1.æ£€æŸ¥å½“å‰å®‰è£…çš„PHPåŒ…
   yum list installed | grep php
-Èç¹ûÓĞ°²×°µÄPHP°ü£¬ÏÈÉ¾³ıËûÃÇ
+å¦‚æœæœ‰å®‰è£…çš„PHPåŒ…ï¼Œå…ˆåˆ é™¤ä»–ä»¬
   yum remove php.x86_64 php-cli.x86_64 php-common.x86_64 php-gd.x86_64 php-ldap.x86_64 php-mbstring.x86_64 php-mcrypt.x86_64 php-mysql.x86_64 php-pdo.x86_64
 
 2.Centos 5.X
@@ -17,23 +17,23 @@ CentosÏÂYum°²×°PHP5.5,5.6,7.0
   rpm -Uvh https://mirror.webtatic.com/yum/el7/epel-release.rpm
   rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 
-Èç¹ûÏëÉ¾³ıÉÏÃæ°²×°µÄ°ü£¬ÖØĞÂ°²×°
+å¦‚æœæƒ³åˆ é™¤ä¸Šé¢å®‰è£…çš„åŒ…ï¼Œé‡æ–°å®‰è£…
 rpm -qa | grep webstatic
-rpm -e  ÉÏÃæËÑË÷µ½µÄ°ü¼´¿É
+rpm -e  ä¸Šé¢æœç´¢åˆ°çš„åŒ…å³å¯
 
-3.ÔËĞĞyum install
+3.è¿è¡Œyum install
   yum install php55w.x86_64 php55w-cli.x86_64 php55w-common.x86_64 php55w-gd.x86_64 php55w-ldap.x86_64 php55w-mbstring.x86_64 php55w-mcrypt.x86_64 php55w-mysql.x86_64 php55w-pdo.x86_64
   yum install php56w.x86_64 php56w-cli.x86_64 php56w-common.x86_64 php56w-gd.x86_64 php56w-ldap.x86_64 php56w-mbstring.x86_64 php56w-mcrypt.x86_64 php56w-mysql.x86_64 php56w-pdo.x86_64
 
-×¢£ºÈç¹ûÏëÉı¼¶µ½5.6°ÑÉÏÃæµÄ55w»»³É56w¾Í¿ÉÒÔÁË¡£
+æ³¨ï¼šå¦‚æœæƒ³å‡çº§åˆ°5.6æŠŠä¸Šé¢çš„55wæ¢æˆ56wå°±å¯ä»¥äº†ã€‚
 
   yum install php70w.x86_64 php70w-cli.x86_64 php70w-common.x86_64 php70w-gd.x86_64 php70w-ldap.x86_64 php70w-mbstring.x86_64 php70w-mcrypt.x86_64 php70w-mysql.x86_64 php70w-pdo.x86_64
 
-4.°²×°PHP FPM
+4.å®‰è£…PHP FPM
 yum install php55w-fpm 
 yum install php56w-fpm 
 yum install php70w-fpm
 
-×¢£ºÈç¹ûÏëÉı¼¶µ½5.6°ÑÉÏÃæµÄ55w»»³É56w¾Í¿ÉÒÔÁË¡£
+æ³¨ï¼šå¦‚æœæƒ³å‡çº§åˆ°5.6æŠŠä¸Šé¢çš„55wæ¢æˆ56wå°±å¯ä»¥äº†ã€‚
 
-rm -rf /var/run/yum.pid À´Ç¿ĞĞ½â³ıËø¶¨£¬È»ºó¾Í¿ÉÒÔÕı³£Ê¹ÓÃÄãµÄyumÁË
+rm -rf /var/run/yum.pid æ¥å¼ºè¡Œè§£é™¤é”å®šï¼Œç„¶åå°±å¯ä»¥æ­£å¸¸ä½¿ç”¨ä½ çš„yumäº†
