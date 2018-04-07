@@ -115,7 +115,7 @@ GIT项目部署完成
 FTP项目部署完成  
 ![图片036](http://www.phpbin.cn/wp-content/uploads/2018/04/036.jpg "图片036")  
   
-查看地址： http://ftp.phpbin.cn 能打开说明配置成功  
+查看地址： http://myftp.phpbin.cn 能打开说明配置成功  
   
 `FTP地址：118.25.100.31 账号：myftp 密码：123456`  
 `ftp://myftp:123456@118.25.100.31`
