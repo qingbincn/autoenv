@@ -6,6 +6,7 @@
 > 将脚本上传到服务器，并设置可执行权限；
 > 在服务器根目录新建 /mydata 目录  `# yum -y update` 对服务器版本进行更新  
 > 本教程将脚本上传到 /root 目录进行演示。 
+
 ``` shell
 $ yum -y update  
 $ chmod -R 777 **
@@ -47,7 +48,8 @@ $  ./host_pma.sh
 ![图片016](http://www.phpbin.cn/wp-content/uploads/2018/04/016.jpg "图片016")  
   
 ## 3. 使用SVN部署
-自动生成SVN项目，Commit后将代码提交到仓库后，自动部署到网站目录  
+> 自动生成SVN项目，Commit后将代码提交到仓库后，自动部署到网站目录
+  
 ``` shell
 $  ./host_svn.sh
 ```
@@ -69,7 +71,8 @@ SVN地址：SVN://118.25.100.31/mysvn 账号：mysvn 密码：123456
 ```
 
 ## 4. 使用GIT部署
-自动生成GIT项目，Commit后将代码提交到仓库后，自动部署到网站目录  
+> 自动生成GIT项目，Commit后将代码提交到仓库后，自动部署到网站目录 
+ 
 ``` shell
 $  ./host_git.sh
 ```
@@ -144,7 +147,8 @@ Samba项目部署完成
  
 ## 7.全局清理
 > 如果安装失败可以使用 `clean.sh` 清除所有配置，回收初始状态, 所以要慎用  
-> 【如果/mydata 目录没有清除干净，请手动 rm -rf ** 删除干净】    
+> 【如果/mydata 目录没有清除干净，请手动 rm -rf ** 删除干净】  
+  
 ``` shell  
 $  ./clean.sh  
 ```  
