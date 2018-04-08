@@ -62,6 +62,7 @@ $  ./host_svn.sh
 ![图片021](http://www.phpbin.cn/wp-content/uploads/2018/04/021.jpg "图片021")  
 SVN项目部署完成  
 ![图片022](http://www.phpbin.cn/wp-content/uploads/2018/04/022.jpg "图片022")  
+  
 查看地址： <http://mysvn.phpbin.cn> 能打开说明配置成功
 ``` shell  
 SVN地址：SVN://118.25.100.31/mysvn 账号：mysvn 密码：123456
@@ -83,6 +84,7 @@ $  ./host_git.sh
 ![图片027](http://www.phpbin.cn/wp-content/uploads/2018/04/027.jpg "图片027")  
 GIT项目部署完成  
 ![图片028](http://www.phpbin.cn/wp-content/uploads/2018/04/028.jpg "图片028")  
+   
  查看地址： <http://mygit.phpbin.cn> 能打开说明配置成功
 ``` shell  
 git clone git@118.25.100.31:/mydata/repository/mygit.git 账号：mygit 密码：123456 
@@ -107,6 +109,7 @@ $  ./host_ftp.sh
 ![图片035](http://www.phpbin.cn/wp-content/uploads/2018/04/035.jpg "图片035")  
 FTP项目部署完成  
 ![图片036](http://www.phpbin.cn/wp-content/uploads/2018/04/036.jpg "图片036")  
+  
 查看地址：<http://myftp.phpbin.cn> 能打开说明配置成功  
 ``` shell
 FTP地址：118.25.100.31 账号：myftp 密码：123456
@@ -128,6 +131,7 @@ $  ./host_smb.sh
 ![图片041](http://www.phpbin.cn/wp-content/uploads/2018/04/041.jpg "图片041")  
 Samba项目部署完成  
 ![图片042](http://www.phpbin.cn/wp-content/uploads/2018/04/042.jpg "图片042")  
+   
  查看地址：<http://mysmb.phpbin.cn> 能打开说明配置成功  
 ``` shell
 \\118.25.100.31 账号：mysmb 密码：123456
