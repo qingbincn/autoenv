@@ -1,16 +1,16 @@
 
-Cenotos6.5 64位 LAMP 自动配置脚本 @phpbin
-====
+# Cenotos6.5 64位 LAMP 自动配置脚本 @phpbin
 该脚仅支持Centos6.x版本，使用时请注意自己的服务器版本.  
 如果需要使用PHP5.6, 请参考根目录：/php56.txt
 
-1.脚本初始化安装
--------
+## 1.脚本初始化安装
 将脚本上传到服务器，并设置可执行权限；在服务器根目录新建 /mydata 目录 # yum -y update 对服务器版本进行更新  
 本教程将脚本上传到 /root 目录进行演示。 
-  
-`$ yum -y update`  
-`$ chmod -R 777 **`
+
+```shell  
+$ yum -y update  
+$ chmod -R 777 **
+```
  
 ![图片001](http://www.phpbin.cn/wp-content/uploads/2018/04/001.jpg "图片001")  
   
@@ -39,8 +39,7 @@ GIT仓库目录
 打开 http://118.25.100.31/ 测试初始化完成  
 ![图片009](http://www.phpbin.cn/wp-content/uploads/2018/04/009.jpg "图片009") 
   
-2.安装PHPMyAdmin
--------
+## 2.安装PHPMyAdmin
 
 `$  ./host_pma.sh`   
 
@@ -49,8 +48,7 @@ GIT仓库目录
 打开：http://118.25.100.31/phpmyadmin/ 查看安装完成  
 ![图片016](http://www.phpbin.cn/wp-content/uploads/2018/04/016.jpg "图片016")  
   
-3.使用SVN部署
--------
+## 3.使用SVN部署
 自动生成SVN项目，Commit后将代码提交到仓库后，自动部署到网站目录  
   
 `$  ./host_svn.sh`
@@ -71,8 +69,7 @@ SVN项目部署完成
   
 `SVN地址：SVN://118.25.100.31/mysvn 账号：mysvn 密码：123456`
   
-4.使用GIT部署
--------
+## 4.使用GIT部署
 自动生成GIT项目，Commit后将代码提交到仓库后，自动部署到网站目录  
   
 `$  ./host_git.sh`
@@ -98,8 +95,7 @@ GIT项目部署完成
 ![图片029](http://www.phpbin.cn/wp-content/uploads/2018/04/029.jpg "图片029")   
 ![图片030](http://www.phpbin.cn/wp-content/uploads/2018/04/030.jpg "图片030")  
   
-5.使用FTP部署
--------
+## 5.使用FTP部署
 
 `$  ./host_ftp.sh`  
   
@@ -121,8 +117,7 @@ FTP项目部署完成
 `ftp://myftp:123456@118.25.100.31`
   
 
-6.使用Samba部署
--------
+## 6.使用Samba部署
 
 `$  ./host_smb.sh`  
   
@@ -147,8 +142,7 @@ Samba项目部署完成
 ![图片045](http://www.phpbin.cn/wp-content/uploads/2018/04/045.jpg "图片045") 
 
  
-7.全局清理
--------
+## 7.全局清理
 如果安装失败可以使用 `clean.sh` 清除所有配置，回收初始状态, 所以要慎用  
 【如果/mydata 目录没有清除干净，请手动 rm -rf ** 删除干净】    
   
