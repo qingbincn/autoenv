@@ -2,7 +2,7 @@
 > 该脚仅支持Centos6.x版本，使用时请注意自己的服务器版本.  
 > 如果需要使用PHP5.6, 请参考根目录：/php56.txt
 
-## 1.脚本初始化安装
+## 1. 脚本初始化安装
 > 将脚本上传到服务器，并设置可执行权限；
 > 在服务器根目录新建 /mydata 目录  `# yum -y update` 对服务器版本进行更新  
 > 本教程将脚本上传到 /root 目录进行演示。 
@@ -46,7 +46,7 @@ $  ./host_pma.sh
 打开：<http://118.25.100.31/phpmyadmin/> 查看安装完成  
 ![图片016](http://www.phpbin.cn/wp-content/uploads/2018/04/016.jpg "图片016")  
   
-## 3.使用SVN部署
+## 3. 使用SVN部署
 自动生成SVN项目，Commit后将代码提交到仓库后，自动部署到网站目录  
 ``` shell
 $  ./host_svn.sh
@@ -62,12 +62,12 @@ $  ./host_svn.sh
 ![图片021](http://www.phpbin.cn/wp-content/uploads/2018/04/021.jpg "图片021")  
 SVN项目部署完成  
 ![图片022](http://www.phpbin.cn/wp-content/uploads/2018/04/022.jpg "图片022")  
-``` shell   
-查看地址： <http://mysvn.phpbin.cn> 能打开说明配置成功  
+查看地址： <http://mysvn.phpbin.cn> 能打开说明配置成功
+``` shell  
 SVN地址：SVN://118.25.100.31/mysvn 账号：mysvn 密码：123456
 ```
 
-## 4.使用GIT部署
+## 4. 使用GIT部署
 自动生成GIT项目，Commit后将代码提交到仓库后，自动部署到网站目录  
 ``` shell
 $  ./host_git.sh
@@ -83,8 +83,8 @@ $  ./host_git.sh
 ![图片027](http://www.phpbin.cn/wp-content/uploads/2018/04/027.jpg "图片027")  
 GIT项目部署完成  
 ![图片028](http://www.phpbin.cn/wp-content/uploads/2018/04/028.jpg "图片028")  
-``` shell    
-查看地址： <http://mygit.phpbin.cn> 能打开说明配置成功  
+ 查看地址： <http://mygit.phpbin.cn> 能打开说明配置成功
+``` shell  
 git clone git@118.25.100.31:/mydata/repository/mygit.git 账号：mygit 密码：123456 
 git clone ssh://git@118.25.100.31/mydata/repository/mygit.git 账号：mygit 密码：123456
 ```
@@ -92,7 +92,7 @@ git clone ssh://git@118.25.100.31/mydata/repository/mygit.git 账号：mygit 密
 ![图片029](http://www.phpbin.cn/wp-content/uploads/2018/04/029.jpg "图片029")   
 ![图片030](http://www.phpbin.cn/wp-content/uploads/2018/04/030.jpg "图片030")  
   
-## 5.使用FTP部署
+## 5. 使用FTP部署
 ``` shell
 $  ./host_ftp.sh
 ``` 
@@ -107,13 +107,13 @@ $  ./host_ftp.sh
 ![图片035](http://www.phpbin.cn/wp-content/uploads/2018/04/035.jpg "图片035")  
 FTP项目部署完成  
 ![图片036](http://www.phpbin.cn/wp-content/uploads/2018/04/036.jpg "图片036")  
-``` shell  
 查看地址：<http://myftp.phpbin.cn> 能打开说明配置成功  
+``` shell
 FTP地址：118.25.100.31 账号：myftp 密码：123456
 ftp://myftp:123456@118.25.100.31
 ``` 
 
-## 6.使用Samba部署
+## 6. 使用Samba部署
 ``` shell
 $  ./host_smb.sh
 ```
@@ -128,8 +128,8 @@ $  ./host_smb.sh
 ![图片041](http://www.phpbin.cn/wp-content/uploads/2018/04/041.jpg "图片041")  
 Samba项目部署完成  
 ![图片042](http://www.phpbin.cn/wp-content/uploads/2018/04/042.jpg "图片042")  
-``` shell  
  查看地址：<http://mysmb.phpbin.cn> 能打开说明配置成功  
+``` shell
 \\118.25.100.31 账号：mysmb 密码：123456
 ```
 在Windows7搜索框架中输入：\\\\118.25.100.31  
