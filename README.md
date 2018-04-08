@@ -35,6 +35,7 @@ GIT仓库目录
 ![图片012](http://www.phpbin.cn/wp-content/uploads/2018/04/012.jpg "图片012")  
 慢长行等待初始化完毕  
 ![图片013](http://www.phpbin.cn/wp-content/uploads/2018/04/013.jpg "图片013")  
+  
 打开 <http://118.25.100.31/> 测试初始化完成  
 ![图片009](http://www.phpbin.cn/wp-content/uploads/2018/04/009.jpg "图片009") 
   
