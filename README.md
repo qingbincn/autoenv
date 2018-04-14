@@ -39,7 +39,14 @@ GIT仓库目录
 打开 <http://118.25.100.31/> 测试初始化完成  
 ![图片009](http://www.phpbin.cn/wp-content/uploads/2018/04/009.jpg "图片009") 
   
-## 2.安装PHPMyAdmin
+> 可以升级PHP版本到 PHP5.6 和 PHP7.0
+``` shell
+$  ./up_php56.sh 
+```
+![图片013_1](http://www.phpbin.cn/wp-content/uploads/2018/04/013_1.jpg "图片013_1")  
+![图片013_2](http://www.phpbin.cn/wp-content/uploads/2018/04/013_2.jpg "图片013_2")  
+    
+## 2. 安装PHPMyAdmin
 ``` shell
 $  ./host_pma.sh 
 ```
