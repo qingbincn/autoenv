@@ -41,7 +41,8 @@ GIT仓库目录
   
 > 可以升级PHP版本到 PHP5.6 和 PHP7.0
 ``` shell
-$  ./up_php56.sh 
+$  ./up_php56.sh  
+$  ./up_php70.sh 
 ```
 ![图片013_1](http://www.phpbin.cn/wp-content/uploads/2018/04/013_1.jpg "图片013_1")  
 ![图片013_2](http://www.phpbin.cn/wp-content/uploads/2018/04/013_2.jpg "图片013_2")  
